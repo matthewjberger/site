@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Rust
 header:
-  image: "/images/mountains.jpg"
+  image: "/images/mistymountains.jpg"
 categories:
   - Rust
 tags:

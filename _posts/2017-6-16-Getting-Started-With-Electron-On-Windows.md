@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Electron on Windows
 header:
-  image: "/images/mistymountains.jpg"
+  image: "/images/mountains.jpg"
 categories:
   - Electron
 tags:
