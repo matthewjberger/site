@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/matthewjberger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://matthewjberger.xyz
+  * I am matthewjberger (https://keybase.io/matthewjberger) on keybase.
+  * I have a public key ASDpVlnD-s0CbwaaywUWTScfrNlW76elGhbrLpaL7Qw2Kwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010151ede06efe701f283a03f90867db438b616842f0630d178699ca998186edc0370a",
+            "host": "keybase.io",
+            "kid": "0120e95659c3facd026f069acb05164d271facd956efa7a51a16eb2e968bed0c362b0a",
+            "uid": "70ba5ad78a586ccd5b3c61d2547ad419",
+            "username": "matthewjberger"
+        },
+        "service": {
+            "hostname": "matthewjberger.xyz",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1497652049,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1497652036,
+        "hash": "31be1a9cd7c17cf353c63432267b90f48120600bc05e83e61017dfa2ab389adb5c69f81bc0b666bc3d226a54885f480d49b276bcd30db7e079f38255131ff6ac",
+        "seqno": 1176157
+    },
+    "prev": "f75c3d738af5de512fabd34953a8b272ea9e2bd3d32d1976cd0a6af563996acf",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6VZZw/rNAm8GmssFFk0nH6zZVu+npRoW6y6Wi+0MNisKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNTFlZGUwNmVmZTcwMWYyODNhMDNmOTA4NjdkYjQzOGI2MTY4NDJmMDYzMGQxNzg2OTljYTk5ODE4NmVkYzAzNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTk1NjU5YzNmYWNkMDI2ZjA2OWFjYjA1MTY0ZDI3MWZhY2Q5NTZlZmE3YTUxYTE2ZWIyZTk2OGJlZDBjMzYyYjBhIiwidWlkIjoiNzBiYTVhZDc4YTU4NmNjZDViM2M2MWQyNTQ3YWQ0MTkiLCJ1c2VybmFtZSI6Im1hdHRoZXdqYmVyZ2VyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtYXR0aGV3amJlcmdlci54eXoiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk3NjUyMDQ5LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTc2NTIwMzYsImhhc2giOiIzMWJlMWE5Y2Q3YzE3Y2YzNTNjNjM0MzIyNjdiOTBmNDgxMjA2MDBiYzA1ZTgzZTYxMDE3ZGZhMmFiMzg5YWRiNWM2OWY4MWJjMGI2NjZiYzNkMjI2YTU0ODg1ZjQ4MGQ0OWIyNzZiY2QzMGRiN2UwNzlmMzgyNTUxMzFmZjZhYyIsInNlcW5vIjoxMTc2MTU3fSwicHJldiI6ImY3NWMzZDczOGFmNWRlNTEyZmFiZDM0OTUzYThiMjcyZWE5ZTJiZDNkMzJkMTk3NmNkMGE2YWY1NjM5OTZhY2YiLCJzZXFubyI6MTQsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAxV4VON+m2OexL+SApS8VNBtFjwSCn+n9guXkOFl9ySh5xcRcsGWr4kyQ7Q3cwIJ8ie7M/FZwnqampI4pceE6DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHLdaFLdAE88l9DfF3P2bClhDKZ5o4ptlu2RFZ+ND9ZGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matthewjberger
+
+==================================================================
