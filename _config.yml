@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "0xDEADBEEF"
+title                    : "deadbeef"
 title_separator          : "-"
 name                     : "Matthew J. Berger"
 description              : "Software engineering experiences"
@@ -119,7 +119,7 @@ author:
       url: mailto:matthewjordanberger@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "matthewjberger.xyz"
+      # url: "matthewjberger.xyz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
