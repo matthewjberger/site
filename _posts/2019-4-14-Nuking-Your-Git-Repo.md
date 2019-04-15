@@ -1,11 +1,12 @@
 ---
 title: Nuking Your Git Repo
 header:
-  teaser: "/images/roses.jpg"
+  image: "/images/roses.jpg"
 categories: 
   - Github
 tags:
   - github
+published: true
 ---
 
 When working with git, it's desirable sometimes to clear all of your changes and begin working at the last commit by taking the [nuclear option](https://xkcd.com/1597/) of deleting and re-cloning your repo.
@@ -14,7 +15,7 @@ There is an easier way to do this, however...
 
 ### > git nuke master
 
-__My solution was to place this alias in my gitconfig:__
+Place this alias in your gitconfig:
 
 ```bash
 # Has the same effect as deleting the entire repo and re-cloning

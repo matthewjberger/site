@@ -7,6 +7,7 @@ categories:
 tags:
   - Electron
   - vscode
+published: true
 ---
 
 # Installing nodejs and electron
