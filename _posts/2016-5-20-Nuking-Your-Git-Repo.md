@@ -1,25 +1,16 @@
 ---
 title: Nuking Your Git Repo
 header:
-  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
+  teaser: "/images/roses.jpg"
 categories: 
   - Github
 tags:
   - github
 ---
 
-If you've worked with Git and wanted to scrap what you've been working on or just resync a local repo that's FUBAR, you've probably tried the [nuclear option](https://xkcd.com/1597/) of deleting and re-cloning your repo.
+When working with git, it's desirable sometimes to clear all of your changes and begin working at the last commit by taking the [nuclear option](https://xkcd.com/1597/) of deleting and re-cloning your repo.
 
-Alright.
-
-Now imagine, a github repository with a few submodules where a recursive clone is needed.
-
-Sure, the cloning time is a bit longer but that's still not so bad.
-
-Now imagine, a github repository with a few submodules as well as build files generated (by cmake, for instance), stored locally, and ignored by git. Nuking this would require you to first copy out all your build files to a backup directory that's outside the repo folder. 
-
-For example, in the [game engine I am working on](https://github.com/matthewjberger/Iceberg3D/) I am using [multiple github repos as dependencies](https://github.com/matthewjberger/Iceberg3D/tree/bb568d03bc4a2c1d89691032eb67982d9880a6f7/Iceberg3D/dependencies) in the form of git submodules. I chose to compile the libraries from source because I want them statically linked into my engine. There is a one time cost for this however where you recursively clone the project and submodules, then run cmake to generate the build files. I like to keep them in the same directory as the git repo. If I nuked the repository by deleting and re-cloning, I'd have to do all of this over again or have to generate my build files somewhere outside of my cloned repo directory (which is inconvenient).
-
+There is an easier way to do this, however...
 
 ### > git nuke master
 
