@@ -34,7 +34,7 @@ For example:
 ## Breakdown
 
 ### Shell commands as git aliases
-First, the odd syntax of running shell commands with parameters via git aliases:
+First, here is the syntax for running shell commands with parameters via git aliases:
 
 ```bash
 "!sh -c \"git command $1\" -"
@@ -42,15 +42,15 @@ First, the odd syntax of running shell commands with parameters via git aliases:
 
 _Note: the inner quotations must be escaped with backslashes._
 
-To run a shell command through a git alias, you simply put an exclamation point before the command name.
+To run a shell command through a git alias, put an exclamation point before the command name.
 
 [From the gitconfig manual](https://git-scm.com/docs/git-config):
 
 > If the alias expansion is prefixed with an exclamation point, it will be treated as a shell command.
 
-In the nuke alias we use this to our advantage by running the sh program with the -c switch, the command will be given as a string, and the hyphen at the end will send it to standard input.
+In the nuke alias we use this to our advantage by running `sh -c` the command will be given as a string, and the hyphen at the end will send it to standard input.
 
-The symbol $1 is interpreted as the first parameter passed in, and likewise later parameters are handled by their position prefixed by a dollar sign. (First parameter: $1, Second parameter: $2, etc.)
+The symbol `$1` is interpreted as the first parameter passed in, and likewise later parameters are handled by their position prefixed by a dollar sign. (First parameter: `$1`, Second parameter: `$2`, etc.)
 
 Now that we can run shell commands with parameters from git aliases we can string together a chain of useful git commands.
 
@@ -59,7 +59,7 @@ First, we want to checkout the branch that was passed in as a parameter:
 
     git checkout $1 
     
-Then we want to save local modifications away and revert the working directory to match the HEAD commit, including untracked files with the -u switch:
+Then we want to save local modifications away and revert the working directory to match the HEAD commit, including untracked files with the `-u` switch:
 
     git stash -u
 
@@ -75,9 +75,9 @@ Next, we want to discard the stashed changes from before, forcing deletion of th
 
     git clean -df
 
-Finally we ensure that our git submodules are up to date with the current branch:
+Finally, we ensure that our git submodules are up to date with the current branch:
 
     git submodule update --init --recursive
 
 
-And with that, your git repo's local branch is now completely synced with the upstream branch, and your build files have been preserved.
+Your git repo's local branch is now completely synced with the upstream branch and your build files have been preserved.
