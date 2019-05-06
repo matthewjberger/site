@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "0xDEADBEEF"
+title                    : "deadbeef"
 title_separator          : "-"
 name                     : "Matthew J. Berger"
 description              : "Software engineering experiences"
