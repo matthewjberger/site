@@ -114,9 +114,6 @@ author:
   linkedin         : "matthewjberger"
   youtube          : "https://youtube.com/c/MatthewBerger366"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:matthewjordanberger@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "matthewjberger.xyz"
