@@ -2,5 +2,4 @@
 main:
   - title: "Portfolio"
     url: https://matthewjberger.xyz/portfolio
-  - title: "Resume (pdf)"
-    url: https://github.com/matthewjberger/resume/raw/master/Berger_Matthew_Resume.pdf
+
