@@ -1,7 +1,6 @@
 # main links
 main:
-  - title: "Let's Build a Renderer"
-    url: https://matthewjberger.xyz/lbar-book
   - title: "Portfolio"
     url: https://matthewjberger.xyz/portfolio
-
+  - title: "Let's Build a Renderer"
+    url: https://matthewjberger.xyz/lbar-book
